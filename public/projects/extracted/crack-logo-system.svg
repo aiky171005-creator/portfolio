@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" data-name="크랙" version="1.1" viewBox="860 360 408 142" preserveAspectRatio="xMidYMid meet"><defs>
+    <style>
+      .st0 {
+        fill: none;
+      }
+
+      .st1 {
+        fill: #fcfcfc;
+        opacity: .9;
+      }
+
+      .st2 {
+        fill: #13322b;
+      }
+
+      .st3, .st4 {
+        fill: #7c7c7c;
+      }
+
+      .st3, .st4, .st5 {
+        font-family: Pretendard-Regular-KSCpc-EUC-H, Pretendard;
+      }
+
+      .st3, .st5 {
+        font-size: 15px;
+      }
+
+      .st4, .st6, .st7 {
+        font-size: 18px;
+      }
+
+      .st8 {
+        font-size: 25.31px;
+      }
+
+      .st8, .st6 {
+        font-family: COCOGOOSE-UltraLight, NSQKBH+COCOGOOSE-UltraLight;
+        font-weight: 100;
+      }
+
+      .st8, .st9 {
+        fill: #ff4713;
+      }
+
+      .st10 {
+        fill: url(#linear-gradient);
+      }
+
+      .st11 {
+        font-family: ArticulatCF-Medium, 'Articulat CF';
+        font-size: 30px;
+      }
+
+      .st11, .st12 {
+        font-weight: 500;
+      }
+
+      .st5 {
+        fill: #5b5b5b;
+      }
+
+      .st13 {
+        clip-path: url(#clippath-1);
+      }
+
+      .st14 {
+        fill: #00ab84;
+      }
+
+      .st12 {
+        font-family: Pretendard-Medium-KSCpc-EUC-H, Pretendard;
+        font-size: 20px;
+      }
+
+      .st15 {
+        fill: #0f1e1b;
+      }
+
+      .st7 {
+        font-family: OTSBAggroM-KSCpc-EUC-H, 'SB AggroOTF';
+      }
+
+      .st16 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="st0" width="1400" height="960"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="-862.14" y1="480" x2="-711.84" y2="480" gradientTransform="translate(1873.72 960) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0f1e1b"/>
+      <stop offset="1" stop-color="#0f1e1b" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="clippath-1">
+      <rect class="st0" x="-1420" width="1400" height="960"/>
+    </clipPath>
+  </defs>
+  <g><g>
+      <path class="st9" d="M932.62,392.57l-17.54,53.49h4.01l7.73-23.57h32.05l-9.43,28.75-12.36,9.66h-59.15l23.8-72.58,12.52-9.43h58.91l-12.98,39.59h-32.05l8.5-25.92h-4.01Z"/>
+      <path class="st9" d="M984.68,460.91l10.43-31.81h-4.24l-10.43,31.81h-30.87l26.89-82.01h55.62l6.57,9.43-6.72,20.5-12.83,9.66,6.57,9.43-10.82,32.99h-30.16ZM1002.84,392.57l-5.79,17.67h4.24l5.79-17.67h-4.24Z"/>
+      <path class="st9" d="M1140.94,392.57l-17.54,53.49h4.01l7.73-23.57h32.05l-9.43,28.75-12.36,9.66h-59.15l23.8-72.58,12.52-9.43h58.91l-12.98,39.59h-32.05l8.5-25.92h-4.01Z"/>
+      <path class="st9" d="M1199.19,429.1l-10.43,31.81h-30.87l26.89-82.01h30.87l-10.28,31.34h4.24l10.28-31.34h30.16l-9.81,29.93-12.83,9.66,6.57,9.43-10.82,32.99h-30.16l10.43-31.81h-4.24"/>
+      <path class="st9" d="M1091.69,378.9h-27.1l-27.58,27.34-17.93,54.67h29.35l4.87-14.85h4s-4.87,14.85-4.87,14.85h30.75l17.54-53.49-9.03-28.51ZM1072.17,418.19l6.32,9.37-10.29,7.77-6.32-9.37-12.41,9.37-5.24-7.77,12.41-9.37-6.32-9.37,10.29-7.77,6.32,9.37,12.41-9.37,5.24,7.77-12.41,9.37Z"/>
+      <text class="st8" transform="translate(1032.14 483.72)"><tspan x="0" y="0">ENTERTAINMENT</tspan></text>
+    </g>
+    </g></svg>

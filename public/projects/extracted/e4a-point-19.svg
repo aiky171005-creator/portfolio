@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" data-name="이포에이" version="1.1" viewBox="1137 576 161 160" preserveAspectRatio="xMidYMid meet"><defs>
+    <style>
+      .st0 {
+        fill: #ebebeb;
+      }
+
+      .st1 {
+        font-family: ArticulatCF-Medium, 'Articulat CF';
+        font-size: 30px;
+        font-weight: 500;
+      }
+
+      .st2 {
+        fill: none;
+        stroke: #d1d1d1;
+        stroke-miterlimit: 10;
+        stroke-width: .62px;
+      }
+
+      .st3 {
+        fill: #777;
+        font-family: Pretendard-Light-KSCpc-EUC-H, Pretendard;
+        font-size: 18px;
+        font-weight: 300;
+      }
+    </style>
+  </defs>
+  <g><g>
+      <g>
+        <rect class="st2" x="1156.28" y="594.49" width="24.53" height="24.53"/>
+        <rect class="st2" x="1180.81" y="594.49" width="24.53" height="24.53"/>
+        <rect class="st2" x="1205.34" y="594.49" width="24.53" height="24.53"/>
+        <rect class="st2" x="1229.87" y="594.49" width="24.53" height="24.53"/>
+        <rect class="st2" x="1254.39" y="594.49" width="24.53" height="24.53"/>
+        <rect class="st2" x="1156.28" y="619.01" width="24.53" height="24.53"/>
+        <rect class="st2" x="1180.81" y="619.01" width="24.53" height="24.53"/>
+        <rect class="st2" x="1205.34" y="619.01" width="24.53" height="24.53"/>
+        <rect class="st2" x="1229.87" y="619.01" width="24.53" height="24.53"/>
+        <rect class="st2" x="1254.39" y="619.01" width="24.53" height="24.53"/>
+        <rect class="st2" x="1156.28" y="643.54" width="24.53" height="24.53"/>
+        <rect class="st2" x="1180.81" y="643.54" width="24.53" height="24.53"/>
+        <rect class="st2" x="1205.34" y="643.54" width="24.53" height="24.53"/>
+        <rect class="st2" x="1229.87" y="643.54" width="24.53" height="24.53"/>
+        <rect class="st2" x="1254.39" y="643.54" width="24.53" height="24.53"/>
+        <rect class="st2" x="1156.28" y="668.07" width="24.53" height="24.53"/>
+        <rect class="st2" x="1180.81" y="668.07" width="24.53" height="24.53"/>
+        <rect class="st2" x="1205.34" y="668.07" width="24.53" height="24.53"/>
+        <rect class="st2" x="1229.87" y="668.07" width="24.53" height="24.53"/>
+        <rect class="st2" x="1254.39" y="668.07" width="24.53" height="24.53"/>
+        <rect class="st2" x="1156.28" y="692.6" width="24.53" height="24.53"/>
+        <rect class="st2" x="1180.81" y="692.6" width="24.53" height="24.53"/>
+        <rect class="st2" x="1205.34" y="692.6" width="24.53" height="24.53"/>
+        <rect class="st2" x="1229.87" y="692.6" width="24.53" height="24.53"/>
+        <rect class="st2" x="1254.39" y="692.6" width="24.53" height="24.53"/>
+      </g>
+      <polygon points="1180.81 594.49 1156.28 619.01 1156.28 717.13 1249.49 717.13 1278.92 663.16 1278.92 594.49 1254.35 594.49 1254.39 658.26 1234.77 692.6 1180.85 692.6 1180.81 594.49"/>
+    </g>
+  </g></svg>

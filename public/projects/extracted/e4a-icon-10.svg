@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" data-name="이포에이" version="1.1" viewBox="231 558 190 250" preserveAspectRatio="xMidYMid meet"><defs>
+    <style>
+      .st0 {
+        fill: #ebebeb;
+      }
+
+      .st1 {
+        font-family: ArticulatCF-Medium, 'Articulat CF';
+        font-size: 30px;
+        font-weight: 500;
+      }
+
+      .st2 {
+        fill: #777;
+        font-family: Pretendard-Light-KSCpc-EUC-H, Pretendard;
+        font-size: 18px;
+        font-weight: 300;
+      }
+    </style>
+  </defs>
+  <g><path d="M327.06,617.35l54.48,38.82v73.7l-34.62,6.1v-55.38l-8.12,1.43-27.69,4.88-5.72,1.01v55.38l-34.62,6.1v-72.09l56.29-59.96M326.15,608.21l-62.31,66.37v83.08l48.46-8.55v-55.38l27.69-4.88v55.38l48.46-8.54v-83.08l-62.31-44.4h0Z"/>
+    </g></svg>

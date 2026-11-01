@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" data-name="이포에이" version="1.1" viewBox="605 558 190 250" preserveAspectRatio="xMidYMid meet"><defs>
+    <style>
+      .st0 {
+        fill: #ebebeb;
+      }
+
+      .st1 {
+        font-family: ArticulatCF-Medium, 'Articulat CF';
+        font-size: 30px;
+        font-weight: 500;
+      }
+
+      .st2 {
+        fill: #777;
+        font-family: Pretendard-Light-KSCpc-EUC-H, Pretendard;
+        font-size: 18px;
+        font-weight: 300;
+      }
+    </style>
+  </defs>
+  <g><g>
+      <polygon points="727.24 613.72 713.85 616.09 713.85 623.01 724.38 621.15 758.85 649.54 758.85 698.29 724.38 738.84 675.62 747.44 641.15 719.05 641.15 670.3 675.62 629.75 686.15 627.89 686.15 620.97 672.76 623.33 634.23 668.65 634.23 723.14 672.76 754.87 727.24 745.26 765.77 699.94 765.77 645.46 727.24 613.72 727.24 613.72"/>
+      <polygon points="703.46 610.99 696.54 612.21 696.54 667.6 703.46 666.38 703.46 610.99 703.46 610.99"/>
+    </g>
+  </g></svg>

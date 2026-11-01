@@ -1,0 +1,580 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" data-name="셀러블라썸" version="1.1" viewBox="118 246 77 77" preserveAspectRatio="xMidYMid meet"><defs>
+    <style>
+      .st0, .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st9, .st10, .st11, .st12, .st13, .st14 {
+        stroke: #2a5397;
+      }
+
+      .st0, .st1, .st3, .st4, .st6, .st7, .st8, .st9, .st12, .st14 {
+        stroke-width: 1.31px;
+      }
+
+      .st0, .st2 {
+        fill: none;
+      }
+
+      .st0, .st9, .st11, .st12, .st13 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .st15, .st9 {
+        fill: #fae4e5;
+      }
+
+      .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st10, .st14 {
+        stroke-miterlimit: 10;
+      }
+
+      .st1, .st16 {
+        fill: #ffefb4;
+      }
+
+      .st2, .st5, .st10, .st11, .st13 {
+        stroke-width: .79px;
+      }
+
+      .st17 {
+        fill: #c14490;
+      }
+
+      .st18 {
+        font-family: Pretendard-Regular-KSCpc-EUC-H, Pretendard;
+        font-size: 15px;
+      }
+
+      .st3 {
+        fill: #228787;
+      }
+
+      .st4 {
+        fill: #caa5cd;
+      }
+
+      .st19 {
+        fill: #e8d06e;
+      }
+
+      .st5 {
+        fill: #dfc8e1;
+      }
+
+      .st20 {
+        fill: #2a5397;
+      }
+
+      .st21 {
+        fill: #76c2dd;
+      }
+
+      .st6 {
+        fill: #e11c1c;
+      }
+
+      .st22 {
+        clip-path: url(#clippath-17);
+      }
+
+      .st23 {
+        clip-path: url(#clippath-19);
+      }
+
+      .st24 {
+        clip-path: url(#clippath-11);
+      }
+
+      .st25 {
+        clip-path: url(#clippath-16);
+      }
+
+      .st26 {
+        clip-path: url(#clippath-18);
+      }
+
+      .st27 {
+        clip-path: url(#clippath-10);
+      }
+
+      .st28 {
+        clip-path: url(#clippath-15);
+      }
+
+      .st29 {
+        clip-path: url(#clippath-13);
+      }
+
+      .st30 {
+        clip-path: url(#clippath-14);
+      }
+
+      .st31 {
+        clip-path: url(#clippath-12);
+      }
+
+      .st32 {
+        clip-path: url(#clippath-61);
+      }
+
+      .st33 {
+        clip-path: url(#clippath-60);
+      }
+
+      .st34 {
+        clip-path: url(#clippath-62);
+      }
+
+      .st35 {
+        clip-path: url(#clippath-63);
+      }
+
+      .st36 {
+        clip-path: url(#clippath-50);
+      }
+
+      .st37 {
+        clip-path: url(#clippath-55);
+      }
+
+      .st38 {
+        clip-path: url(#clippath-52);
+      }
+
+      .st39 {
+        clip-path: url(#clippath-57);
+      }
+
+      .st40 {
+        clip-path: url(#clippath-54);
+      }
+
+      .st41 {
+        clip-path: url(#clippath-56);
+      }
+
+      .st42 {
+        clip-path: url(#clippath-53);
+      }
+
+      .st43 {
+        clip-path: url(#clippath-51);
+      }
+
+      .st44 {
+        clip-path: url(#clippath-58);
+      }
+
+      .st45 {
+        clip-path: url(#clippath-59);
+      }
+
+      .st46 {
+        clip-path: url(#clippath-31);
+      }
+
+      .st47 {
+        clip-path: url(#clippath-32);
+      }
+
+      .st48 {
+        clip-path: url(#clippath-33);
+      }
+
+      .st49 {
+        clip-path: url(#clippath-34);
+      }
+
+      .st50 {
+        clip-path: url(#clippath-35);
+      }
+
+      .st51 {
+        clip-path: url(#clippath-39);
+      }
+
+      .st52 {
+        clip-path: url(#clippath-30);
+      }
+
+      .st53 {
+        clip-path: url(#clippath-36);
+      }
+
+      .st54 {
+        clip-path: url(#clippath-37);
+      }
+
+      .st55 {
+        clip-path: url(#clippath-38);
+      }
+
+      .st56 {
+        clip-path: url(#clippath-27);
+      }
+
+      .st57 {
+        clip-path: url(#clippath-29);
+      }
+
+      .st58 {
+        clip-path: url(#clippath-26);
+      }
+
+      .st59 {
+        clip-path: url(#clippath-28);
+      }
+
+      .st60 {
+        clip-path: url(#clippath-20);
+      }
+
+      .st61 {
+        clip-path: url(#clippath-21);
+      }
+
+      .st62 {
+        clip-path: url(#clippath-22);
+      }
+
+      .st63 {
+        clip-path: url(#clippath-23);
+      }
+
+      .st64 {
+        clip-path: url(#clippath-24);
+      }
+
+      .st65 {
+        clip-path: url(#clippath-25);
+      }
+
+      .st66 {
+        clip-path: url(#clippath-41);
+      }
+
+      .st67 {
+        clip-path: url(#clippath-42);
+      }
+
+      .st68 {
+        clip-path: url(#clippath-43);
+      }
+
+      .st69 {
+        clip-path: url(#clippath-44);
+      }
+
+      .st70 {
+        clip-path: url(#clippath-45);
+      }
+
+      .st71 {
+        clip-path: url(#clippath-49);
+      }
+
+      .st72 {
+        clip-path: url(#clippath-40);
+      }
+
+      .st73 {
+        clip-path: url(#clippath-46);
+      }
+
+      .st74 {
+        clip-path: url(#clippath-47);
+      }
+
+      .st75 {
+        clip-path: url(#clippath-48);
+      }
+
+      .st7 {
+        fill: #3099d5;
+      }
+
+      .st76 {
+        font-family: ArticulatCF-Medium, 'Articulat CF';
+        font-size: 30px;
+        font-weight: 500;
+      }
+
+      .st77 {
+        clip-path: url(#clippath-1);
+      }
+
+      .st78 {
+        clip-path: url(#clippath-3);
+      }
+
+      .st79 {
+        clip-path: url(#clippath-4);
+      }
+
+      .st80 {
+        clip-path: url(#clippath-2);
+      }
+
+      .st81 {
+        clip-path: url(#clippath-7);
+      }
+
+      .st82 {
+        clip-path: url(#clippath-6);
+      }
+
+      .st83 {
+        clip-path: url(#clippath-9);
+      }
+
+      .st84 {
+        clip-path: url(#clippath-8);
+      }
+
+      .st85 {
+        clip-path: url(#clippath-5);
+      }
+
+      .st8 {
+        fill: #ea6707;
+      }
+
+      .st86 {
+        fill: #b1d7e0;
+      }
+
+      .st87 {
+        fill: #4b4b98;
+      }
+
+      .st10 {
+        fill: #ef8641;
+      }
+
+      .st11 {
+        fill: #f1946b;
+      }
+
+      .st12 {
+        fill: #9ac4e9;
+      }
+
+      .st13 {
+        fill: #bac7e6;
+      }
+
+      .st88 {
+        fill: #ee889e;
+      }
+
+      .st89 {
+        clip-path: url(#clippath);
+      }
+
+      .st14 {
+        fill: #9cc8e6;
+      }
+
+      .st90 {
+        fill: #6ea3c8;
+      }
+    </style>
+    <clipPath id="clippath">
+      <ellipse class="st2" cx="1260.73" cy="789.73" rx="6.19" ry="3.18" transform="translate(-189.16 1122.77) rotate(-45)"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <ellipse class="st2" cx="1235.51" cy="814.94" rx="6.19" ry="3.18" transform="translate(-214.38 1112.33) rotate(-45)"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <ellipse class="st2" cx="990.15" cy="570.57" rx="6.19" ry="3.18" transform="translate(-113.45 867.26) rotate(-45)"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <ellipse class="st2" cx="1015.36" cy="545.36" rx="6.19" ry="3.18" transform="translate(-88.23 877.7) rotate(-45)"/>
+    </clipPath>
+    <clipPath id="clippath-4">
+      <ellipse class="st2" cx="1235.02" cy="544.86" rx="3.18" ry="6.19" transform="translate(-23.55 1032.87) rotate(-45)"/>
+    </clipPath>
+    <clipPath id="clippath-5">
+      <ellipse class="st2" cx="1260.23" cy="570.07" rx="3.18" ry="6.19" transform="translate(-33.99 1058.09) rotate(-45)"/>
+    </clipPath>
+    <clipPath id="clippath-6">
+      <ellipse class="st2" cx="1015.86" cy="815.44" rx="3.18" ry="6.19" transform="translate(-279.06 957.16) rotate(-45)"/>
+    </clipPath>
+    <clipPath id="clippath-7">
+      <ellipse class="st2" cx="990.65" cy="790.22" rx="3.18" ry="6.19" transform="translate(-268.62 931.94) rotate(-45)"/>
+    </clipPath>
+    <clipPath id="clippath-8">
+      <ellipse class="st2" cx="1110.02" cy="795.52" rx="5.34" ry="2.74"/>
+    </clipPath>
+    <clipPath id="clippath-9">
+      <ellipse class="st2" cx="1140.85" cy="795.52" rx="5.34" ry="2.74"/>
+    </clipPath>
+    <clipPath id="clippath-10">
+      <ellipse class="st2" cx="1110.02" cy="564.78" rx="5.34" ry="2.74"/>
+    </clipPath>
+    <clipPath id="clippath-11">
+      <ellipse class="st2" cx="1140.85" cy="564.78" rx="5.34" ry="2.74"/>
+    </clipPath>
+    <clipPath id="clippath-12">
+      <ellipse class="st2" cx="1110.02" cy="795.52" rx="5.34" ry="2.74"/>
+    </clipPath>
+    <clipPath id="clippath-13">
+      <ellipse class="st2" cx="1140.85" cy="795.52" rx="5.34" ry="2.74"/>
+    </clipPath>
+    <clipPath id="clippath-14">
+      <ellipse class="st2" cx="1010.07" cy="664.73" rx="2.74" ry="5.34"/>
+    </clipPath>
+    <clipPath id="clippath-15">
+      <ellipse class="st2" cx="1010.07" cy="695.56" rx="2.74" ry="5.34"/>
+    </clipPath>
+    <clipPath id="clippath-16">
+      <ellipse class="st2" cx="1240.81" cy="664.73" rx="2.74" ry="5.34"/>
+    </clipPath>
+    <clipPath id="clippath-17">
+      <ellipse class="st2" cx="1240.81" cy="695.56" rx="2.74" ry="5.34"/>
+    </clipPath>
+    <clipPath id="clippath-18">
+      <ellipse class="st2" cx="1010.07" cy="664.68" rx="2.74" ry="5.34"/>
+    </clipPath>
+    <clipPath id="clippath-19">
+      <ellipse class="st2" cx="1010.07" cy="695.51" rx="2.74" ry="5.34"/>
+    </clipPath>
+    <clipPath id="clippath-20">
+      <ellipse class="st2" cx="772.84" cy="805.06" rx="6.19" ry="3.18" transform="translate(-342.9 782.27) rotate(-45)"/>
+    </clipPath>
+    <clipPath id="clippath-21">
+      <ellipse class="st2" cx="747.62" cy="830.27" rx="6.19" ry="3.18" transform="translate(-368.12 771.83) rotate(-45)"/>
+    </clipPath>
+    <clipPath id="clippath-22">
+      <ellipse class="st2" cx="502.26" cy="585.9" rx="6.19" ry="3.18" transform="translate(-267.19 526.76) rotate(-45)"/>
+    </clipPath>
+    <clipPath id="clippath-23">
+      <ellipse class="st2" cx="527.47" cy="560.69" rx="6.19" ry="3.18" transform="translate(-241.98 537.2) rotate(-45)"/>
+    </clipPath>
+    <clipPath id="clippath-24">
+      <ellipse class="st2" cx="747.12" cy="560.19" rx="3.18" ry="6.19" transform="translate(-177.29 692.37) rotate(-45)"/>
+    </clipPath>
+    <clipPath id="clippath-25">
+      <ellipse class="st2" cx="772.34" cy="585.41" rx="3.18" ry="6.19" transform="translate(-187.73 717.59) rotate(-45)"/>
+    </clipPath>
+    <clipPath id="clippath-26">
+      <ellipse class="st2" cx="527.97" cy="830.77" rx="3.18" ry="6.19" transform="translate(-432.81 616.66) rotate(-45)"/>
+    </clipPath>
+    <clipPath id="clippath-27">
+      <ellipse class="st2" cx="502.75" cy="805.56" rx="3.18" ry="6.19" transform="translate(-422.36 591.44) rotate(-45)"/>
+    </clipPath>
+    <clipPath id="clippath-28">
+      <ellipse class="st2" cx="622.13" cy="810.85" rx="5.34" ry="2.74"/>
+    </clipPath>
+    <clipPath id="clippath-29">
+      <ellipse class="st2" cx="652.96" cy="810.85" rx="5.34" ry="2.74"/>
+    </clipPath>
+    <clipPath id="clippath-30">
+      <ellipse class="st2" cx="622.13" cy="580.11" rx="5.34" ry="2.74"/>
+    </clipPath>
+    <clipPath id="clippath-31">
+      <ellipse class="st2" cx="652.96" cy="580.11" rx="5.34" ry="2.74"/>
+    </clipPath>
+    <clipPath id="clippath-32">
+      <ellipse class="st2" cx="622.13" cy="810.85" rx="5.34" ry="2.74"/>
+    </clipPath>
+    <clipPath id="clippath-33">
+      <ellipse class="st2" cx="652.96" cy="810.85" rx="5.34" ry="2.74"/>
+    </clipPath>
+    <clipPath id="clippath-34">
+      <ellipse class="st2" cx="522.18" cy="680.07" rx="2.74" ry="5.34"/>
+    </clipPath>
+    <clipPath id="clippath-35">
+      <ellipse class="st2" cx="522.18" cy="710.9" rx="2.74" ry="5.34"/>
+    </clipPath>
+    <clipPath id="clippath-36">
+      <ellipse class="st2" cx="752.91" cy="680.07" rx="2.74" ry="5.34"/>
+    </clipPath>
+    <clipPath id="clippath-37">
+      <ellipse class="st2" cx="752.91" cy="710.9" rx="2.74" ry="5.34"/>
+    </clipPath>
+    <clipPath id="clippath-38">
+      <ellipse class="st2" cx="522.18" cy="680.02" rx="2.74" ry="5.34"/>
+    </clipPath>
+    <clipPath id="clippath-39">
+      <ellipse class="st2" cx="522.18" cy="710.84" rx="2.74" ry="5.34"/>
+    </clipPath>
+    <clipPath id="clippath-40">
+      <ellipse class="st2" cx="196.7" cy="795.52" rx="5.34" ry="2.74"/>
+    </clipPath>
+    <clipPath id="clippath-41">
+      <ellipse class="st2" cx="227.52" cy="795.52" rx="5.34" ry="2.74"/>
+    </clipPath>
+    <clipPath id="clippath-42">
+      <ellipse class="st2" cx="196.7" cy="564.78" rx="5.34" ry="2.74"/>
+    </clipPath>
+    <clipPath id="clippath-43">
+      <ellipse class="st2" cx="227.52" cy="564.78" rx="5.34" ry="2.74"/>
+    </clipPath>
+    <clipPath id="clippath-44">
+      <ellipse class="st2" cx="196.7" cy="795.52" rx="5.34" ry="2.74"/>
+    </clipPath>
+    <clipPath id="clippath-45">
+      <ellipse class="st2" cx="227.52" cy="795.52" rx="5.34" ry="2.74"/>
+    </clipPath>
+    <clipPath id="clippath-46">
+      <ellipse class="st2" cx="96.74" cy="664.73" rx="2.74" ry="5.34"/>
+    </clipPath>
+    <clipPath id="clippath-47">
+      <ellipse class="st2" cx="96.74" cy="695.56" rx="2.74" ry="5.34"/>
+    </clipPath>
+    <clipPath id="clippath-48">
+      <ellipse class="st2" cx="327.48" cy="664.73" rx="2.74" ry="5.34"/>
+    </clipPath>
+    <clipPath id="clippath-49">
+      <ellipse class="st2" cx="327.48" cy="695.56" rx="2.74" ry="5.34"/>
+    </clipPath>
+    <clipPath id="clippath-50">
+      <ellipse class="st2" cx="96.74" cy="664.68" rx="2.74" ry="5.34"/>
+    </clipPath>
+    <clipPath id="clippath-51">
+      <ellipse class="st2" cx="96.74" cy="695.51" rx="2.74" ry="5.34"/>
+    </clipPath>
+    <clipPath id="clippath-52">
+      <ellipse class="st2" cx="1045.05" cy="399.88" rx="5.34" ry="2.74"/>
+    </clipPath>
+    <clipPath id="clippath-53">
+      <ellipse class="st2" cx="1075.87" cy="399.88" rx="5.34" ry="2.74"/>
+    </clipPath>
+    <clipPath id="clippath-54">
+      <ellipse class="st2" cx="1045.05" cy="169.15" rx="5.34" ry="2.74"/>
+    </clipPath>
+    <clipPath id="clippath-55">
+      <ellipse class="st2" cx="1075.87" cy="169.15" rx="5.34" ry="2.74"/>
+    </clipPath>
+    <clipPath id="clippath-56">
+      <ellipse class="st2" cx="1045.05" cy="399.88" rx="5.34" ry="2.74"/>
+    </clipPath>
+    <clipPath id="clippath-57">
+      <ellipse class="st2" cx="1075.87" cy="399.88" rx="5.34" ry="2.74"/>
+    </clipPath>
+    <clipPath id="clippath-58">
+      <ellipse class="st2" cx="945.09" cy="269.1" rx="2.74" ry="5.34"/>
+    </clipPath>
+    <clipPath id="clippath-59">
+      <ellipse class="st2" cx="945.09" cy="299.93" rx="2.74" ry="5.34"/>
+    </clipPath>
+    <clipPath id="clippath-60">
+      <ellipse class="st2" cx="1175.83" cy="269.1" rx="2.74" ry="5.34"/>
+    </clipPath>
+    <clipPath id="clippath-61">
+      <ellipse class="st2" cx="1175.83" cy="299.93" rx="2.74" ry="5.34"/>
+    </clipPath>
+    <clipPath id="clippath-62">
+      <ellipse class="st2" cx="945.09" cy="269.05" rx="2.74" ry="5.34"/>
+    </clipPath>
+    <clipPath id="clippath-63">
+      <ellipse class="st2" cx="945.09" cy="299.88" rx="2.74" ry="5.34"/>
+    </clipPath>
+  </defs>
+  <g><g>
+        <g>
+          <path class="st16" d="M174.16,284.52c4.94,12.73-5.38,23.05-18.11,18.11-12.73,4.94-23.05-5.38-18.11-18.11-4.94-12.73,5.38-23.05,18.11-18.11,12.73-4.94,23.05,5.38,18.11,18.11Z"/>
+          <path class="st0" d="M174.16,284.52c4.94,12.73-5.38,23.05-18.11,18.11-12.73,4.94-23.05-5.38-18.11-18.11-4.94-12.73,5.38-23.05,18.11-18.11,12.73-4.94,23.05,5.38,18.11,18.11Z"/>
+        </g>
+        <circle class="st14" cx="156.05" cy="284.52" r="5.92"/>
+      </g>
+    </g></svg>

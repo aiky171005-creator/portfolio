@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" data-name="이포에이" version="1.1" viewBox="0 843 1400 117" preserveAspectRatio="xMidYMid meet"><defs>
+    <style>
+      .st0, .st1, .st2, .st3, .st4, .st5, .st6 {
+        fill: none;
+      }
+
+      .st7, .st8, .st9, .st10, .st11, .st12, .st13 {
+        font-family: Pretendard-Regular-KSCpc-EUC-H, Pretendard;
+      }
+
+      .st7, .st9, .st11, .st12, .st13 {
+        font-size: 15px;
+      }
+
+      .st7, .st14 {
+        fill: #fff;
+      }
+
+      .st15 {
+        font-family: ArticulatCF-DemiBold, 'Articulat CF';
+      }
+
+      .st15, .st16, .st17 {
+        font-weight: 300;
+      }
+
+      .st18, .st9 {
+        fill: #7c7c7c;
+      }
+
+      .st19 {
+        font-family: Pretendard-SemiBold-KSCpc-EUC-H, Pretendard;
+        font-weight: 600;
+      }
+
+      .st20, .st21, .st12 {
+        fill: #ebebeb;
+      }
+
+      .st20, .st1, .st2, .st3, .st4, .st5 {
+        stroke: #5b5b5b;
+      }
+
+      .st20, .st1, .st2, .st3, .st4, .st5, .st6 {
+        stroke-miterlimit: 10;
+      }
+
+      .st20, .st2, .st3, .st5 {
+        stroke-width: .64px;
+      }
+
+      .st20, .st22, .st5 {
+        opacity: .8;
+      }
+
+      .st23, .st16, .st11, .st24 {
+        fill: #5b5b5b;
+      }
+
+      .st8, .st24, .st25 {
+        font-size: 18px;
+      }
+
+      .st1, .st4 {
+        stroke-width: .33px;
+      }
+
+      .st3 {
+        stroke-dasharray: 2.65 2.65;
+      }
+
+      .st26 {
+        fill: #212121;
+      }
+
+      .st16, .st17 {
+        font-family: Pretendard-Light-KSCpc-EUC-H, Pretendard;
+        font-size: 10.09px;
+      }
+
+      .st27 {
+        font-family: ArticulatCF-Medium, 'Articulat CF';
+        font-size: 30px;
+      }
+
+      .st27, .st28 {
+        font-weight: 500;
+      }
+
+      .st29 {
+        clip-path: url(#clippath-1);
+      }
+
+      .st30 {
+        letter-spacing: .25em;
+      }
+
+      .st30, .st31, .st32 {
+        font-family: ArticulatCF-Bold, 'Articulat CF';
+        font-size: 23.21px;
+        font-weight: 700;
+      }
+
+      .st31 {
+        letter-spacing: .34em;
+      }
+
+      .st32 {
+        letter-spacing: .21em;
+      }
+
+      .st28 {
+        font-family: Pretendard-Medium-KSCpc-EUC-H, Pretendard;
+        font-size: 20px;
+      }
+
+      .st33 {
+        fill: #f7f7f7;
+      }
+
+      .st4 {
+        stroke-dasharray: 1.65 1.65;
+      }
+
+      .st25, .st34 {
+        font-family: ArticulatCF-Regular, 'Articulat CF';
+      }
+
+      .st13, .st35 {
+        fill: #d1d1d1;
+      }
+
+      .st36 {
+        fill: #333;
+      }
+
+      .st6 {
+        stroke: #999;
+        stroke-width: .37px;
+      }
+
+      .st37 {
+        clip-path: url(#clippath);
+      }
+
+      .st38 {
+        fill: #999;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="st0" y="849.22" width="1400" height="110.78"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <circle class="st0" cx="1074.45" cy="334.26" r="49.34"/>
+    </clipPath>
+  </defs>
+  <g><g>
+      <g class="st37">
+        <g>
+          <polygon class="st14" points="155.56 961.29 0 988.71 0 888.71 155.56 861.29 155.56 961.29"/>
+          <polygon class="st21" points="311.11 961.29 155.56 988.71 155.56 888.71 311.11 861.29 311.11 961.29"/>
+          <polygon class="st35" points="466.67 961.29 311.11 988.71 311.11 888.71 466.67 861.29 466.67 961.29"/>
+          <polygon class="st38" points="622.22 961.29 466.67 988.71 466.67 888.71 622.22 861.29 622.22 961.29"/>
+          <polygon class="st18" points="777.78 961.29 622.22 988.71 622.22 888.71 777.78 861.29 777.78 961.29"/>
+          <polygon class="st23" points="933.33 961.29 777.78 988.71 777.78 888.71 933.33 861.29 933.33 961.29"/>
+          <polygon class="st36" points="1088.89 961.29 933.33 988.71 933.33 888.71 1088.89 861.29 1088.89 961.29"/>
+          <polygon class="st26" points="1244.44 961.29 1088.89 988.71 1088.89 888.71 1244.44 861.29 1244.44 961.29"/>
+          <polygon points="1400 961.29 1244.44 988.71 1244.44 888.71 1400 861.29 1400 961.29"/>
+        </g>
+      </g>
+      <text class="st9" transform="translate(656.18 949)"><tspan x="0" y="0">#FFFFFF</tspan></text>
+      <text class="st9" transform="translate(166.63 949)"><tspan x="0" y="0">#F7F7F7</tspan></text>
+      <text class="st9" transform="translate(11.08 949)"><tspan x="0" y="0">#FFFFFF</tspan></text>
+      <text class="st9" transform="translate(322.19 949)"><tspan x="0" y="0">#DDDDDD</tspan></text>
+      <text class="st7" transform="translate(478.05 949)"><tspan x="0" y="0">#A5A5A5</tspan></text>
+      <text class="st12" transform="translate(634.47 949)"><tspan x="0" y="0">#7C7C7C</tspan></text>
+      <text class="st12" transform="translate(790.11 949)"><tspan x="0" y="0">#5B5B5B</tspan></text>
+      <text class="st13" transform="translate(944.41 949)"><tspan x="0" y="0">#333333</tspan></text>
+      <text class="st13" transform="translate(1099.97 949)"><tspan x="0" y="0">#212121</tspan></text>
+      <text class="st13" transform="translate(1255.52 949)"><tspan x="0" y="0">#000000</tspan></text>
+    </g>
+  </g></svg>

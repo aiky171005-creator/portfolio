@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" data-name="이포에이" version="1.1" viewBox="1165.5 558 190 250" preserveAspectRatio="xMidYMid meet"><defs>
+    <style>
+      .st0 {
+        fill: #ebebeb;
+      }
+
+      .st1 {
+        font-family: ArticulatCF-Medium, 'Articulat CF';
+        font-size: 30px;
+        font-weight: 500;
+      }
+
+      .st2 {
+        fill: #777;
+        font-family: Pretendard-Light-KSCpc-EUC-H, Pretendard;
+        font-size: 18px;
+        font-weight: 300;
+      }
+    </style>
+  </defs>
+  <g><g>
+      <path d="M1323.08,637.44v69.02l-124.62,21.97v-16.9l6.46-7.6,1.65-1.94v-17.28l-2.52-2.08-5.59-4.6v-18.62l124.62-21.97M1330,629.19l-138.46,24.41v27.69l8.11,6.68v11.47l-8.11,9.54v27.69l138.46-24.41v-83.08h0Z"/>
+      <g>
+        <polygon points="1229.62 646.89 1226.15 647.5 1226.15 658.57 1229.62 657.96 1229.62 646.89 1229.62 646.89"/>
+        <polygon points="1229.62 664.89 1226.15 665.5 1226.15 676.57 1229.62 675.96 1229.62 664.89 1229.62 664.89"/>
+        <polygon points="1229.62 682.89 1226.15 683.5 1226.15 694.57 1229.62 693.96 1229.62 682.89 1229.62 682.89"/>
+        <polygon points="1229.62 700.89 1226.15 701.5 1226.15 712.57 1229.62 711.96 1229.62 700.89 1229.62 700.89"/>
+        <polygon points="1229.62 718.89 1226.15 719.5 1226.15 730.57 1229.62 729.96 1229.62 718.89 1229.62 718.89"/>
+      </g>
+    </g>
+    </g></svg>
