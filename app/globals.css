@@ -533,8 +533,8 @@ img { display: block; max-width: 100%; }
   .home-cover-mobile-copy { aspect-ratio: 1.4 / 1; }
   .home-cover-mobile-art { aspect-ratio: .75 / 1; }
   .home-cover-mobile img { position: absolute; max-width: none; height: auto; }
-  .home-cover-mobile-copy img { top: -55%; left: 0; width: 214%; }
-  .home-cover-mobile-art img { top: 0; right: 0; width: 194%; }
+  .home-cover-mobile-copy img { top: -55%; left: 12vw; width: 214%; }
+  .home-cover-mobile-art img { top: 0; right: -4vw; width: 194%; }
   .home-footer { padding: 8px 16px 14px; }
   .work-heading { padding: 70px 16px 18px; }
   .work-heading h1 { font-size: 25vw; }
