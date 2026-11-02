@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { SiteNav } from "@/components/site-nav";
 import { assetPath, projects } from "@/lib/projects";
 
@@ -14,7 +13,7 @@ export default function WorkPage() {
 
       <section className="work-grid" aria-label="프로젝트 목록">
         {projects.map((project, index) => (
-          <Link className="work-card" href={assetPath(`/work/${project.slug}`)} key={project.slug}>
+          <a className="work-card" href={assetPath(`/work/${project.slug}`)} key={project.slug}>
             <div className="work-card-image">
               <img src={project.thumbnail} alt="" loading={index < 2 ? "eager" : "lazy"} />
               <div className="work-card-overlay">
@@ -33,7 +32,7 @@ export default function WorkPage() {
               </div>
               <span>{project.year}</span>
             </footer>
-          </Link>
+          </a>
         ))}
       </section>
     </main>

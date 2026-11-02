@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { assetPath } from "@/lib/projects";
 import { SiteNav } from "@/components/site-nav";
 
@@ -11,7 +10,7 @@ export function HomeHero() {
       </div>
       <div className="home-footer">
         <span>Selected work 2020—2026</span>
-        <Link href={assetPath("/work")}>Explore projects <b>↗</b></Link>
+        <a href={assetPath("/work")}>Explore projects <b>↗</b></a>
       </div>
     </main>
   );

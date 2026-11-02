@@ -1,6 +1,5 @@
 import type { CSSProperties } from "react";
 import type { Metadata } from "next";
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ProjectStory } from "@/components/project-story";
 import { SiteNav } from "@/components/site-nav";
@@ -71,10 +70,10 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
 
         <footer className="next-project">
           <span>Next project</span>
-          <Link href={assetPath(`/work/${next.slug}`)}>
+          <a href={assetPath(`/work/${next.slug}`)}>
             <strong>{next.title}</strong>
             <span>↗</span>
-          </Link>
+          </a>
         </footer>
       </article>
     </main>
