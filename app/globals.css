@@ -415,8 +415,9 @@ img { display: block; max-width: 100%; }
 
 /* Main cover */
 .site-nav {
-  position: relative;
-  z-index: 10;
+  position: sticky;
+  top: 0;
+  z-index: 100;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -424,11 +425,13 @@ img { display: block; max-width: 100%; }
   padding: 22px 28px;
   border-bottom: 1px solid var(--foreground);
   background: rgba(255, 255, 255, .94);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   font-size: 10px;
   text-transform: uppercase;
   letter-spacing: .07em;
 }
-.site-nav.is-hero { position: relative; border-color: rgba(22, 71, 217, .45); background: transparent; color: #1647d9; }
+.site-nav.is-hero { border-color: rgba(22, 71, 217, .45); background: rgba(255, 183, 21, .92); color: #1647d9; }
 .site-mark { display: flex; align-items: baseline; gap: 12px; }
 .site-mark strong { font-size: 19px; line-height: 1; letter-spacing: -.055em; }
 .site-mark span { opacity: .68; }
