@@ -24,11 +24,12 @@ const skippedSystemPages: Record<string, number[]> = {
 const pageDetails: Record<number, { title: string; copy?: string; cleanImage?: boolean; image?: string }> = {
   3: {
     title: "Design System",
+    image: "/work/page-03-hq.webp",
   },
   4: {
     title: "Promotion Items",
     copy: "품목 디자인 아이덴티티를 활용한 각종 판촉물 디자인",
-    image: "/work-clean/page-04.webp",
+    image: "/work-clean/page-04-hq.webp",
   },
   11: {
     title: "Package — Premium Line",
