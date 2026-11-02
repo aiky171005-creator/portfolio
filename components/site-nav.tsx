@@ -12,7 +12,7 @@ export function SiteNav({ overHero = false }: SiteNavProps) {
       <nav aria-label="주요 메뉴">
         <a href={assetPath("/work")}>Work</a>
         <a href={assetPath("/about")}>About</a>
-        <a href="mailto:aiky171005@gmail.com">Contact ↗</a>
+        <a href={assetPath("/about#contact")}>Contact</a>
       </nav>
     </header>
   );

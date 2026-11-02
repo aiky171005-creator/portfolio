@@ -99,8 +99,8 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <footer className="about-contact">
-        <span>Let’s work together</span>
+      <footer className="about-contact" id="contact">
+        <span>Contact Email</span>
         <a href="mailto:aiky171005@gmail.com">aiky171005@gmail.com ↗</a>
       </footer>
     </main>

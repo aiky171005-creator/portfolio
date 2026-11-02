@@ -12,6 +12,7 @@ html {
   max-width: 100%;
   overflow-x: hidden;
   background: var(--background);
+  scroll-behavior: smooth;
 }
 body {
   max-width: 100%;
@@ -884,7 +885,7 @@ img { display: block; max-width: 100%; }
 .profile-columns { display: grid; grid-template-columns: repeat(3, 1fr); gap: 44px; }
 .profile-columns p { margin: 0; font-size: 14px; line-height: 1.9; }
 .profile-columns small { color: var(--muted); font-size: 10px; }
-.about-contact { padding: 36px 4vw 42px; color: #fff; background: #111; }
+.about-contact { padding: 36px 4vw 42px; color: #fff; background: #111; scroll-margin-top: 64px; }
 .about-contact span { display: block; margin-bottom: clamp(70px, 11vw, 150px); font-size: 9px; text-transform: uppercase; letter-spacing: .075em; }
 .about-contact a { display: inline-block; max-width: 100%; padding-bottom: 5px; border-bottom: 2px solid currentColor; font-size: clamp(28px, 6vw, 90px); line-height: 1; letter-spacing: -.055em; overflow-wrap: anywhere; }
 
