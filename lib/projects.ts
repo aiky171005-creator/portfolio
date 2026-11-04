@@ -18,6 +18,10 @@ export type Project = {
   pages: number[];
   accent: string;
   interactive?: InteractivePage[];
+  externalLink?: {
+    label: string;
+    url: string;
+  };
 };
 
 const publicBasePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
@@ -52,6 +56,10 @@ export const projects: Project[] = [
     meta: ["2023.02—2024.02", "개인작업", "브랜딩 · 기획 · 로고 · 그래픽 · 폰트 · 아이콘 · 패키지"],
     pages: [6, 7, 8, 9, 10, 11, 12],
     accent: "#111111",
+    externalLink: {
+      label: "이벤트 페이지 보러가기",
+      url: "https://www.figma.com/design/i9mAHbd3XaDGGEDBc6QkA5/%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4_%EB%8F%84%EC%88%98%EB%AF%B8_%EB%B0%B0%EB%84%88-%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80?node-id=0-286&t=rQwtIO3mfI8SAh9F-1",
+    },
     interactive: [
       { page: 8, src: assetPath("/projects/e4a/point-font.svg"), label: "Point Font" },
       { page: 9, src: assetPath("/projects/e4a/icons.svg"), label: "Icon Design" },
@@ -125,6 +133,10 @@ export const projects: Project[] = [
     meta: ["2020.06—2021.12", "개인작업 · 회사", "콘텐츠 · 일러스트 · 굿즈"],
     pages: [36, 37],
     accent: "#f51f27",
+    externalLink: {
+      label: "이벤트 페이지 보러가기",
+      url: "https://www.figma.com/design/i9mAHbd3XaDGGEDBc6QkA5/%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4_%EB%8F%84%EC%88%98%EB%AF%B8_%EB%B0%B0%EB%84%88-%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80?node-id=330-2&t=I7dePtqKAlTMzMEa-1",
+    },
   },
 ];
 

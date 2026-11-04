@@ -50,6 +50,12 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
           <div className="case-copy">
             <h2>{project.headline}</h2>
             <p>{project.description}</p>
+            {project.externalLink && (
+              <a className="case-external-link" href={project.externalLink.url} target="_blank" rel="noreferrer">
+                <span>{project.externalLink.label}</span>
+                <b>↗</b>
+              </a>
+            )}
           </div>
           <dl className="case-meta">
             {project.meta.map((item, index) => (
