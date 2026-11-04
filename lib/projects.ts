@@ -57,7 +57,7 @@ export const projects: Project[] = [
     pages: [6, 7, 8, 9, 10, 11, 12],
     accent: "#111111",
     externalLink: {
-      label: "이벤트 페이지 보러가기",
+      label: "SNS & 상세페이지",
       url: "https://www.figma.com/design/i9mAHbd3XaDGGEDBc6QkA5/%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4_%EB%8F%84%EC%88%98%EB%AF%B8_%EB%B0%B0%EB%84%88-%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80?node-id=0-286&t=rQwtIO3mfI8SAh9F-1",
     },
     interactive: [
@@ -134,7 +134,7 @@ export const projects: Project[] = [
     pages: [36, 37],
     accent: "#f51f27",
     externalLink: {
-      label: "이벤트 페이지 보러가기",
+      label: "이벤트 페이지",
       url: "https://www.figma.com/design/i9mAHbd3XaDGGEDBc6QkA5/%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4_%EB%8F%84%EC%88%98%EB%AF%B8_%EB%B0%B0%EB%84%88-%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80?node-id=330-2&t=I7dePtqKAlTMzMEa-1",
     },
   },
