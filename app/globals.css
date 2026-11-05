@@ -812,8 +812,39 @@ img { display: block; max-width: 100%; }
 .tea-grid p { margin: 8px 0 3px; color: rgba(42, 27, 242, .68); font-size: 10px; line-height: 1.65; word-break: keep-all; }
 .lezhin-static-gallery { color: #fff; background: #0e0e0e; }
 .lezhin-static-gallery figure { width: 100%; margin: 0 0 clamp(72px, 10vw, 140px); overflow: hidden; background: #0e0e0e; }
-.lezhin-static-gallery figure:last-child { margin-bottom: 0; }
 .lezhin-static-gallery figure img { width: 100%; height: auto; }
+.lezhin-marquee {
+  width: calc(100% + clamp(40px, 10vw, 152px));
+  margin-right: calc(clamp(20px, 5vw, 76px) * -1);
+  margin-left: calc(clamp(20px, 5vw, 76px) * -1);
+  overflow: hidden;
+  background: #050505;
+}
+.lezhin-content-marquee { margin-top: clamp(-92px, -6vw, -48px); margin-bottom: clamp(90px, 12vw, 170px); padding: clamp(16px, 2vw, 28px) 0; }
+.lezhin-ip-marquee { margin-top: clamp(-92px, -6vw, -48px); padding: clamp(16px, 2vw, 28px) 0; }
+.lezhin-marquee-row { width: 100%; overflow: hidden; }
+.lezhin-marquee-row + .lezhin-marquee-row { margin-top: clamp(10px, 1vw, 16px); }
+.lezhin-marquee-track {
+  display: flex;
+  width: max-content;
+  will-change: transform;
+  animation: lezhin-marquee-scroll 120s linear infinite;
+}
+.lezhin-marquee-row.is-reverse .lezhin-marquee-track { animation-direction: reverse; }
+.lezhin-marquee-group { display: flex; flex: none; gap: clamp(10px, 1vw, 16px); padding-right: clamp(10px, 1vw, 16px); }
+.lezhin-marquee-group img {
+  display: block;
+  width: auto;
+  height: clamp(230px, 29vw, 390px);
+  flex: none;
+  object-fit: contain;
+  background: #050505;
+}
+.lezhin-ip-marquee .lezhin-marquee-group img { height: clamp(250px, 32vw, 430px); }
+.lezhin-marquee:hover .lezhin-marquee-track { animation-play-state: paused; }
+@keyframes lezhin-marquee-scroll {
+  to { transform: translateX(-50%); }
+}
 
 .product-lines-section { width: 100%; margin-bottom: clamp(76px, 12vw, 180px); padding: clamp(46px, 7vw, 100px) clamp(20px, 5vw, 76px); background: #fff; }
 .e4a-social-gallery {
@@ -992,6 +1023,15 @@ img { display: block; max-width: 100%; }
   .poster-ornaments.is-right { grid-row: 3; }
   .boutonniere-field { width: min(100%, 560px); justify-self: center; }
   .narrative-section, .lezhin-static-gallery { padding: 48px 14px; }
+  .lezhin-marquee { width: calc(100% + 28px); margin-right: -14px; margin-left: -14px; }
+  .lezhin-content-marquee { margin-top: -50px; margin-bottom: 86px; padding: 10px 0; }
+  .lezhin-ip-marquee { margin-top: -50px; padding: 10px 0; }
+  .lezhin-marquee-group,
+  .lezhin-marquee-row + .lezhin-marquee-row { gap: 8px; }
+  .lezhin-marquee-group { padding-right: 8px; }
+  .lezhin-marquee-group img,
+  .lezhin-ip-marquee .lezhin-marquee-group img { height: clamp(190px, 58vw, 260px); }
+  .lezhin-marquee-track { animation-duration: 96s; }
   .approach-stat, .charan-audience, .approach-data { grid-template-columns: 1fr; }
   .tea-grid { grid-template-columns: repeat(2, 1fr); }
   .product-lines-section { padding: 48px 14px; }
@@ -1018,6 +1058,13 @@ img { display: block; max-width: 100%; }
   .career-detail { grid-template-columns: 1fr; }
   .profile-columns { grid-template-columns: 1fr; gap: 48px; }
   .about-contact { padding: 28px 16px 34px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .lezhin-marquee-row { overflow-x: auto; scrollbar-width: none; }
+  .lezhin-marquee-row::-webkit-scrollbar { display: none; }
+  .lezhin-marquee-track { animation: none; }
+  .lezhin-marquee-group[aria-hidden="true"] { display: none; }
 }
 
 @media (max-width: 420px) {

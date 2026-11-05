@@ -185,12 +185,59 @@ export function E4ASocialGallery() {
   </section>;
 }
 
+const lezhinContentRows = [
+  Array.from({ length: 15 }, (_, index) =>
+    `/projects/lezhin/content-marquee/content-${String(index + 1).padStart(2, "0")}.jpg`,
+  ),
+  Array.from({ length: 15 }, (_, index) =>
+    `/projects/lezhin/content-marquee/content-${String(index + 16).padStart(2, "0")}.jpg`,
+  ),
+];
+
+const lezhinIpImages = Array.from({ length: 10 }, (_, index) =>
+  `/projects/lezhin/ip-marquee/ip-${String(index + 1).padStart(2, "0")}.jpg`,
+);
+
+function LezhinMarqueeRow({
+  images,
+  reverse = false,
+  label,
+}: {
+  images: string[];
+  reverse?: boolean;
+  label: string;
+}) {
+  return <div className={`lezhin-marquee-row${reverse ? " is-reverse" : ""}`} aria-label={label}>
+    <div className="lezhin-marquee-track">
+      {[0, 1].map((copy) => <div
+        className="lezhin-marquee-group"
+        key={copy}
+        aria-hidden={copy === 1 ? "true" : undefined}
+      >
+        {images.map((src, index) => <img
+          key={`${copy}-${src}`}
+          src={assetPath(src)}
+          alt={copy === 0 ? `${label} ${index + 1}` : ""}
+          loading="lazy"
+        />)}
+      </div>)}
+    </div>
+  </div>;
+}
+
 export function LezhinGallery() {
   return <section className="lezhin-static-gallery">
     <SectionTitle eyebrow="Content Design" title="BANNER_CONTENTS" />
     <figure><img src={assetPath("/work-clean/page-36.webp")} alt="레진 배너 콘텐츠 디자인" /></figure>
+    <div className="lezhin-marquee lezhin-content-marquee">
+      <LezhinMarqueeRow images={lezhinContentRows[0]} label="레진 BANNER_CONTENTS 프로모션 디자인" />
+      <LezhinMarqueeRow images={lezhinContentRows[1]} reverse label="레진 BANNER_CONTENTS 프로모션 디자인" />
+    </div>
     <div className="subsection-title"><h3>BANNER_IP</h3></div>
     <figure><img src={assetPath("/work-clean/page-37.webp")} alt="레진 IP 배너 프로모션 디자인" /></figure>
+    <div className="lezhin-marquee lezhin-ip-marquee">
+      <LezhinMarqueeRow images={lezhinIpImages} label="레진 BANNER_IP 캐릭터 프로모션 디자인" />
+    </div>
   </section>;
 }
 
