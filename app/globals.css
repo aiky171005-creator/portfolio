@@ -585,7 +585,7 @@ img { display: block; max-width: 100%; }
 .case-hero { height: min(78vw, 980px); margin: 0; overflow: hidden; background: #ddd; }
 .case-hero img { width: 100%; height: 100%; object-fit: cover; }
 
-.story-album { padding: clamp(52px, 9vw, 140px) 4vw; overflow: clip; }
+.story-album { padding: clamp(52px, 9vw, 140px) 0; overflow: clip; }
 .story-item { margin: 0 0 clamp(56px, 10vw, 160px); }
 .story-item.is-wide { width: 100%; }
 .story-item.is-inset { width: 100%; }
@@ -610,7 +610,7 @@ img { display: block; max-width: 100%; }
 }
 .story-item:not(.is-system) > button:hover > span { opacity: 1; transform: translateY(0); }
 .story-page-section { width: 100%; }
-.story-section-heading { max-width: 780px; padding: 0 0 clamp(22px, 3vw, 38px); text-align: left; }
+.story-section-heading { max-width: calc(780px + 8vw); padding: 0 4vw clamp(22px, 3vw, 38px); text-align: left; }
 .story-section-heading h2 { margin: 0; font-size: clamp(25px, 3vw, 44px); line-height: 1.15; letter-spacing: -.045em; }
 .story-section-heading p { margin: 12px 0 0; color: #85827b; font-size: clamp(11px, .95vw, 14px); line-height: 1.85; word-break: keep-all; }
 .system-frame { transform-style: preserve-3d; }
@@ -857,8 +857,8 @@ img { display: block; max-width: 100%; }
 
 .product-lines-section { width: 100%; margin-bottom: clamp(76px, 12vw, 180px); padding: clamp(46px, 7vw, 100px) clamp(20px, 5vw, 76px); background: #fff; }
 .e4a-social-gallery {
-  width: calc(100% - 8vw);
-  margin: 0 4vw clamp(76px, 12vw, 180px);
+  width: 100%;
+  margin: 0 0 clamp(76px, 12vw, 180px);
   padding: clamp(46px, 7vw, 100px) clamp(20px, 5vw, 76px);
   background: #fff;
 }
@@ -997,8 +997,8 @@ img { display: block; max-width: 100%; }
   .case-meta { align-self: auto; }
   .case-tags { margin: -20px 0 0; }
   .case-hero { height: 72vw; }
-  .story-album { padding: 60px 8px; overflow: hidden; }
-  .story-section-heading { padding: 0 8px 22px; }
+  .story-album { padding: 60px 0; overflow: hidden; }
+  .story-section-heading { padding: 0 16px 22px; }
   .story-section-heading h2 { font-size: 28px; }
   .story-section-heading p { font-size: 12px; line-height: 1.75; }
   .story-item,
