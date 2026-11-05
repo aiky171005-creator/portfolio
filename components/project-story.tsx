@@ -41,11 +41,11 @@ const pageDetails: Record<number, { title: string; copy?: string; cleanImage?: b
     copy: "프리미엄 대비 대중적인 타겟팅을 위해 밝고 화사한 컬러 선택 기존에 영양제에서 사용하던 미색의 종이 대신 코스메틱에 사용하는 새하얀 종이를 사용하여 깨끗하고 믿을 수 있는 이미지로 제작",
     cleanImage: true,
   },
-  17: { title: "Banner", copy: "전시장 내 트랙별 부스 안내를 위한 배너 입니다.", image: "/projects/celeblossom/standing-banners.webp" },
+  17: { title: "Banner", copy: "전시장 내 트랙별 부스 안내를 위한 배너 입니다.", image: "/projects/celeblossom/source-2022/standing-banners-hq.png" },
   20: {
     title: "Leaflet",
     copy: "리플렛은 축하 선물들과 함께 들고 다니며 원하는 부스를 찾을 수 있도록 한 손에 들고 볼 수 있는 컴팩트 한 사이즈로 제작했습니다.",
-    image: "/projects/celeblossom/leaflet.webp",
+    image: "/projects/celeblossom/source-2022/leaflet-hq.png",
   },
   27: { title: "Package", cleanImage: true },
   29: { title: "Stationery", cleanImage: true },
@@ -59,9 +59,22 @@ export function ProjectStory({ project }: ProjectStoryProps) {
   return (
     <>
       <section className="story-album" aria-label={`${project.title} 프로젝트 상세 이미지`}>
+        {project.slug === "celeblossom" && (
+          <section className="cele-inline-media is-top" aria-label="셀러블라썸 메인 그래픽 애니메이션">
+            <img src={assetPath("/projects/celeblossom/source-2022/flower-main.gif")} alt="셀러블라썸 꽃 메인 그래픽" />
+          </section>
+        )}
         {project.pages.map((page, index) => {
           if (skippedSystemPages[project.slug]?.includes(page)) return null;
           if (systemStartPages[project.slug] === page) {
+            if (project.slug === "celeblossom") {
+              return <div className="cele-system-flow" key="system-celeblossom">
+                <DesignSystemSection slug={project.slug} />
+                <section className="cele-inline-media is-system" aria-label="셀러블라썸 메인 그래픽 애니메이션">
+                  <img src={assetPath("/projects/celeblossom/source-2022/flower-system.gif")} alt="셀러블라썸 그래픽 시스템 애니메이션" loading="lazy" />
+                </section>
+              </div>;
+            }
             return <DesignSystemSection slug={project.slug} key={`system-${project.slug}`} />;
           }
           if (project.slug === "celeblossom" && page === 16) {
@@ -87,15 +100,25 @@ export function ProjectStory({ project }: ProjectStoryProps) {
           return (
             <section className="story-page-section" key={page}>
               {detail && <header className="story-section-heading"><h2>{detail.title}</h2>{detail.copy && <p>{detail.copy}</p>}</header>}
-              <figure className="story-item is-wide" style={{ "--item-index": index } as CSSProperties}>
+              <figure className={`story-item is-wide${project.slug === "celeblossom" && page === 20 ? " has-followup" : ""}`} style={{ "--item-index": index } as CSSProperties}>
                 <button type="button" onClick={() => setExpanded(src)} aria-label={`${project.title} 상세 이미지 확대`}>
                   <img src={src} alt={`${project.title} ${detail?.title ?? "프로젝트 상세"}`} loading={index < 2 ? "eager" : "lazy"} />
                   <span>View larger +</span>
                 </button>
               </figure>
+              {project.slug === "celeblossom" && page === 20 && (
+                <figure className="cele-followup-media" aria-label="셀러블라썸 리플렛 애니메이션">
+                  <img src={assetPath("/projects/celeblossom/source-2022/leaflet-motion.gif")} alt="셀러블라썸 리플렛 그래픽 애니메이션" loading="lazy" />
+                </figure>
+              )}
             </section>
           );
         })}
+        {project.slug === "celeblossom" && (
+          <section className="cele-inline-media is-bottom" aria-label="셀러블라썸 대형 현수막">
+            <img src={assetPath("/projects/celeblossom/source-2022/large-banner-hq.jpg")} alt="셀러블라썸 대형 현수막 배너 목업" loading="lazy" />
+          </section>
+        )}
       </section>
 
       {project.slug === "e4a" && <E4ASocialGallery />}

@@ -70,7 +70,7 @@ export const projects: Project[] = [
     title: "Celeblossom",
     year: "2022",
     cover: 13,
-    thumbnail: assetPath("/projects/celeblossom/street-banner.webp"),
+    thumbnail: assetPath("/projects/celeblossom/source-2022/street-banner-hq.jpg"),
     headline: "서울과학기술대학교 시각디자인과 제40회 졸업전시",
     description: "셀러블라썸은 졸업전시회 브랜딩입니다. 최소 4년간의 학업을 거치며 그 시간을 잘 마무리하고 졸업작품이라는 결과를 피워 낸 졸업생들이 스스로에게 건넬 수 있는 꽃다발을 선물하고자 했습니다. 폭죽이 팡 터지는 듯한 꽃다발을 한 입 한 입 그려내며, 축하의 마음이 생생히 전해질 수 있기를 바랐습니다.",
     tags: ["졸업전시", "축하", "온오프라인"],

@@ -102,7 +102,7 @@ export function CelePosterSection() {
     <SectionTitle eyebrow="Application" title="Poster Design" />
     <div className="poster-layout">
       <div className="poster-ornaments is-left">{[1, 2, 3, 4].map((number) => <VectorAsset key={number} name={`cele-poster-flower-${String(number).padStart(2, "0")}`} alt={`포스터 왼쪽 꽃 그래픽 ${number}`} />)}</div>
-      <img className="poster-original" src={assetPath("/projects/celeblossom/poster.webp")} alt="셀러블라썸 졸업전시 포스터 원본" />
+      <img className="poster-original" src={assetPath("/projects/celeblossom/source-2022/poster-hq.png")} alt="셀러블라썸 졸업전시 포스터 원본" />
       <div className="poster-ornaments is-right">{[5, 6, 7, 8].map((number) => <VectorAsset key={number} name={`cele-poster-flower-${String(number).padStart(2, "0")}`} alt={`포스터 오른쪽 꽃 그래픽 ${number - 4}`} />)}</div>
     </div>
   </section>;
@@ -301,7 +301,10 @@ export function VivozonPromotionSection() {
 export function CeleExhibitionBookSection() {
   return <section className="cele-book-section">
     <SectionTitle eyebrow="Editorial" title="Exhibition Book" copy="총 120개의 다양한 작품을 담을 수 있도록 깔끔하게 레이아웃을 구성했습니다. 페이지별 정보가 많아 180도 펼쳐지는 제본을 선택하였고, 표지 스크래치와 구김을 최소화하기 위해 밝은 무광의 하드커버로 제작했습니다." />
-    <div className="cele-book-images"><img src={assetPath("/projects/celeblossom/catalog.webp")} alt="셀러블라썸 졸업전시 도록" /></div>
+    <div className="cele-book-images">
+      <img src={assetPath("/projects/celeblossom/catalog.webp")} alt="셀러블라썸 졸업전시 도록" />
+      <img src={assetPath("/projects/celeblossom/source-2022/catalog-motion.gif")} alt="셀러블라썸 도록 그래픽 애니메이션" loading="lazy" />
+    </div>
   </section>;
 }
 
