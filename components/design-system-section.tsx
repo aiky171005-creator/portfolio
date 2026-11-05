@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { assetPath } from "@/lib/projects";
 
 function SectionTitle({ eyebrow, title, copy }: { eyebrow: string; title: string; copy?: string }) {
@@ -207,19 +207,47 @@ function LezhinMarqueeRow({
   reverse?: boolean;
   label: string;
 }) {
-  return <div className={`lezhin-marquee-row${reverse ? " is-reverse" : ""}`} aria-label={label}>
-    <div className="lezhin-marquee-track">
+  const rowRef = useRef<HTMLDivElement>(null);
+  const [isReady, setIsReady] = useState(false);
+
+  useEffect(() => {
+    const row = rowRef.current;
+    if (!row) return;
+    const imageElements = Array.from(row.querySelectorAll("img"));
+    let cancelled = false;
+    Promise.all(imageElements.map((image) => {
+      if (image.complete) return Promise.resolve();
+      return new Promise<void>((resolve) => {
+        image.addEventListener("load", () => resolve(), { once: true });
+        image.addEventListener("error", () => resolve(), { once: true });
+      });
+    })).then(() => {
+      if (!cancelled) setIsReady(true);
+    });
+    return () => { cancelled = true; };
+  }, [images]);
+
+  return <div ref={rowRef} className={`lezhin-marquee-row${reverse ? " is-reverse" : ""}`} aria-label={label}>
+    <div className={`lezhin-marquee-track${isReady ? " is-ready" : ""}`}>
       {[0, 1].map((copy) => <div
         className="lezhin-marquee-group"
         key={copy}
         aria-hidden={copy === 1 ? "true" : undefined}
       >
-        {images.map((src, index) => <img
-          key={`${copy}-${src}`}
-          src={assetPath(src)}
-          alt={copy === 0 ? `${label} ${index + 1}` : ""}
-          loading="lazy"
-        />)}
+        {images.map((src, index) => {
+          const mobileSrc = src.replace(/\/(content-\d+|ip-\d+)\.jpg$/, "/mobile/$1.jpg");
+          return <picture key={`${copy}-${src}`}>
+            <source media="(max-width: 720px)" srcSet={assetPath(mobileSrc)} />
+            <img
+              src={assetPath(src)}
+              alt={copy === 0 ? `${label} ${index + 1}` : ""}
+              width="837"
+              height="900"
+              loading="eager"
+              decoding="async"
+            />
+          </picture>;
+        })}
       </div>)}
     </div>
   </div>;

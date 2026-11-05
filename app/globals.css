@@ -829,18 +829,25 @@ img { display: block; max-width: 100%; }
   width: max-content;
   will-change: transform;
   animation: lezhin-marquee-scroll 120s linear infinite;
+  animation-play-state: paused;
 }
+.lezhin-marquee-track.is-ready { animation-play-state: running; }
 .lezhin-marquee-row.is-reverse .lezhin-marquee-track { animation-direction: reverse; }
 .lezhin-marquee-group { display: flex; flex: none; gap: clamp(10px, 1vw, 16px); padding-right: clamp(10px, 1vw, 16px); }
+.lezhin-marquee-group picture {
+  display: block;
+  height: clamp(215px, 27vw, 360px);
+  aspect-ratio: 93 / 100;
+  flex: none;
+}
 .lezhin-marquee-group img {
   display: block;
-  width: auto;
-  height: clamp(215px, 27vw, 360px);
-  flex: none;
+  width: 100%;
+  height: 100%;
   object-fit: contain;
   background: #050505;
 }
-.lezhin-ip-marquee .lezhin-marquee-group img { height: clamp(230px, 29.5vw, 395px); }
+.lezhin-ip-marquee .lezhin-marquee-group picture { height: clamp(230px, 29.5vw, 395px); }
 @media (hover: hover) and (pointer: fine) {
   .lezhin-marquee:hover .lezhin-marquee-track { animation-play-state: paused; }
 }
@@ -1031,8 +1038,8 @@ img { display: block; max-width: 100%; }
   .lezhin-marquee-group,
   .lezhin-marquee-row + .lezhin-marquee-row { gap: 8px; }
   .lezhin-marquee-group { padding-right: 8px; }
-  .lezhin-marquee-group img,
-  .lezhin-ip-marquee .lezhin-marquee-group img { height: clamp(175px, 53vw, 240px); }
+  .lezhin-marquee-group picture,
+  .lezhin-ip-marquee .lezhin-marquee-group picture { height: clamp(175px, 53vw, 240px); }
   .lezhin-marquee-track { animation-duration: 96s; }
   .approach-stat, .charan-audience, .approach-data { grid-template-columns: 1fr; }
   .tea-grid { grid-template-columns: repeat(2, 1fr); }
