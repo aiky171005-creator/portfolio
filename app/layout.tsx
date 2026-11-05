@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
-const socialImage = `${siteUrl.replace(/\/$/, "")}/og.png`;
+const socialImage = `${siteUrl.replace(/\/$/, "")}/og-home-2026.png`;
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),

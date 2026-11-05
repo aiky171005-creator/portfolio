@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: ProjectPageProps): Promise<Me
   if (!project) return {};
 
   const origin = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
-  const image = `${origin.replace(/\/$/, "")}/og.png`;
+  const image = `${origin.replace(/\/$/, "")}/og-home-2026.png`;
   const title = `${project.title} — Do Sumi`;
 
   return {
