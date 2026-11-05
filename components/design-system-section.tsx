@@ -162,22 +162,22 @@ export function E4AProductLines() {
   </section>;
 }
 
-const e4aSocialImages = Array.from({ length: 15 }, (_, index) =>
+const e4aSocialImages = Array.from({ length: 18 }, (_, index) =>
   `/projects/e4a/sns/sns-${String(index + 1).padStart(2, "0")}.jpg`,
 );
 
 export function E4ASocialGallery() {
-  return <section className="e4a-social-gallery" aria-label="E4A SNS 및 상세페이지 디자인">
+  return <section className="e4a-social-gallery" aria-label="E4A SNS 디자인">
     <SectionTitle
       eyebrow="Digital Content"
-      title="SNS & 상세페이지"
-      copy="브랜드 캠페인과 제품 정보를 각 채널의 목적에 맞게 확장한 디지털 콘텐츠 디자인"
+      title="SNS"
+      copy="브랜드 캠페인과 제품 정보를 각 채널의 목적에 맞게 확장한 SNS 콘텐츠 디자인"
     />
     <div className="e4a-social-grid">
       {e4aSocialImages.map((src, index) => <figure key={src}>
         <img
           src={assetPath(src)}
-          alt={`E4A SNS 및 상세페이지 디자인 ${index + 1}`}
+          alt={`E4A SNS 디자인 ${index + 1}`}
           loading="lazy"
         />
       </figure>)}
