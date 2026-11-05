@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, type CSSProperties } from "react";
-import { CeleExhibitionBookSection, CelePosterSection, CharanBackgroundSection, DesignSystemSection, DongdongApproachSection, E4AProductLines, LezhinGallery } from "@/components/design-system-section";
+import { CeleExhibitionBookSection, CelePosterSection, CharanBackgroundSection, DesignSystemSection, DongdongApproachSection, E4AProductLines, E4ASocialGallery, LezhinGallery } from "@/components/design-system-section";
 import { assetPath, pageImage, type Project } from "@/lib/projects";
 
 type ProjectStoryProps = { project: Project };
@@ -97,6 +97,8 @@ export function ProjectStory({ project }: ProjectStoryProps) {
           );
         })}
       </section>
+
+      {project.slug === "e4a" && <E4ASocialGallery />}
 
       {expanded && (
         <div className="story-lightbox" role="dialog" aria-modal="true" aria-label="프로젝트 이미지 확대">

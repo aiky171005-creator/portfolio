@@ -816,6 +816,17 @@ img { display: block; max-width: 100%; }
 .lezhin-static-gallery figure img { width: 100%; height: auto; }
 
 .product-lines-section { width: 100%; margin-bottom: clamp(76px, 12vw, 180px); padding: clamp(46px, 7vw, 100px) clamp(20px, 5vw, 76px); background: #fff; }
+.e4a-social-gallery {
+  width: calc(100% - 8vw);
+  margin: 0 4vw clamp(76px, 12vw, 180px);
+  padding: clamp(46px, 7vw, 100px) clamp(20px, 5vw, 76px);
+  background: #fff;
+}
+.e4a-social-gallery .system-title { padding-bottom: clamp(34px, 5vw, 70px); }
+.e4a-social-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(7px, 1vw, 16px); }
+.e4a-social-grid figure { margin: 0; overflow: hidden; background: #eee; }
+.e4a-social-grid img { width: 100%; height: auto; display: block; transition: transform 450ms cubic-bezier(.2, .7, .2, 1); }
+.e4a-social-grid figure:hover img { transform: scale(1.018); }
 .product-lines-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1px; padding: 1px; background: #aaa; }
 .product-line-card { min-width: 0; display: flex; flex-direction: column; padding: clamp(20px, 3vw, 42px); background: #f2f2f0; }
 .product-line-card header span { font-size: 9px; text-transform: uppercase; letter-spacing: .075em; }
@@ -914,6 +925,7 @@ img { display: block; max-width: 100%; }
   .system-section,
   .narrative-section,
   .product-lines-section,
+  .e4a-social-gallery,
   .poster-feature,
   .lezhin-static-gallery,
   .cele-book-section { max-width: 100%; overflow-x: clip; }
@@ -983,6 +995,9 @@ img { display: block; max-width: 100%; }
   .approach-stat, .charan-audience, .approach-data { grid-template-columns: 1fr; }
   .tea-grid { grid-template-columns: repeat(2, 1fr); }
   .product-lines-section { padding: 48px 14px; }
+  .e4a-social-gallery { width: 100%; margin: 0 0 76px; padding: 48px 8px; }
+  .e4a-social-gallery .system-title { padding-right: 6px; padding-left: 6px; }
+  .e4a-social-grid { grid-template-columns: 1fr; gap: 8px; }
   .product-lines-grid { grid-template-columns: 1fr; }
   .vivozon-original-system { grid-template-columns: 1fr; }
   .vivozon-system-images { min-height: 920px; }
