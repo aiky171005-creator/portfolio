@@ -835,12 +835,12 @@ img { display: block; max-width: 100%; }
 .lezhin-marquee-group img {
   display: block;
   width: auto;
-  height: clamp(230px, 29vw, 390px);
+  height: clamp(215px, 27vw, 360px);
   flex: none;
   object-fit: contain;
   background: #050505;
 }
-.lezhin-ip-marquee .lezhin-marquee-group img { height: clamp(250px, 32vw, 430px); }
+.lezhin-ip-marquee .lezhin-marquee-group img { height: clamp(230px, 29.5vw, 395px); }
 .lezhin-marquee:hover .lezhin-marquee-track { animation-play-state: paused; }
 @keyframes lezhin-marquee-scroll {
   to { transform: translateX(-50%); }
@@ -1030,7 +1030,7 @@ img { display: block; max-width: 100%; }
   .lezhin-marquee-row + .lezhin-marquee-row { gap: 8px; }
   .lezhin-marquee-group { padding-right: 8px; }
   .lezhin-marquee-group img,
-  .lezhin-ip-marquee .lezhin-marquee-group img { height: clamp(190px, 58vw, 260px); }
+  .lezhin-ip-marquee .lezhin-marquee-group img { height: clamp(175px, 53vw, 240px); }
   .lezhin-marquee-track { animation-duration: 96s; }
   .approach-stat, .charan-audience, .approach-data { grid-template-columns: 1fr; }
   .tea-grid { grid-template-columns: repeat(2, 1fr); }
